@@ -2,37 +2,35 @@
 
 # website settings
 website:
-  title: "Gandalf"                                # Your name
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
+  title: "Sarah Forst"                                # Your name
+  description: "I am a psychologist interested in the cognitive and statistical modeling of judgment and decision processes."   # A brief slogan (optional)
   image: img/my_image.jpg
   
-  favicon: img/favicon.png
+  favicon: img/favicon.png # a logo 
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/logo.png
+    logo: /img/logo.png # can be deleted
     
     # your sub-pages
     left:
       - text: "Projects"
-        href: projects/index.qmd
-      - text: "Photography"
-        href: photography/index.qmd
+        href: projects/index.qmd # directory and quarto file
       - text: "CV"
         href: cv/index.qmd
+      - text: "Contact"
+        href: contact/index.qmd
     
     # your social media handles
     right:
-      - icon: folder-symlink
-        href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
-      - icon: twitter
-        href: https://twitter.com/MarvinSchmittML
       - icon: linkedin
-        href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+        href: www.linkedin.com/in/sarforst
       - icon: envelope
         aria-label: email
-        href: "mailto:mail.marvinschmitt@gmail.com"  
+        href: "mailto:mail.sarah.forst@uni-mannheim.de"  
+      - icon: github
+        href: https://github.com/sarahforst
   
   
 
@@ -42,11 +40,11 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2025 Sarah Forst</span>
     center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+      <span class="faux-block"><a href="https://www.sowi.uni-mannheim.de/en/broeder/">Experimental Psychology Lab</a></span>
     right: |
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+      <span class="faux-block"><a href=""></a></span>
 
 project:
   type: website
